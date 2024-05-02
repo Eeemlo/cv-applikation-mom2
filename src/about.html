@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae | Emma Lorensson</title>
+
+    <link rel="stylesheet" href="css/layout.css">
+    <script src="js/main.js" type="module"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="head-container">
+            <h1>Curriculum Vitae</h1>
+            <h2>Emma Lorensson</h2>
+        </div>
+    </header>
+
+    <div class="custom-shape-divider-top">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path
+                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                class="shape-fill"></path>
+        </svg>
+    </div>
+
+
+    <div class="container">
+        <div class="job-container">
+            <div class="about">
+                <h2>Om uppgiften</h2>
+                <p>Uppgiften bestod av två delar där den första delen gick ut på att skapa en webbtjänst med NodeJs,
+                    Express samt en valfri relationsdatabas. Jag valde att använda mig av PostgreSQL för att kunna
+                    publicera webbtjänsten via Render. Ett krav för webbtjänsten var att den ska kunna hantera
+                    CRUD-operationerna CREATE, READ, UPDATE och DELETE samt tillåta Cross Origin Requests.
+                </p><br>
+
+                <p>Den andra delen gick ut på att skapa en webbapplikation som konsumerar den webbtjänst jag skapat i
+                    tidigare moment. På webbplatsen används Fetch API för att hämta, skicka samt radera data från och
+                    till webbtjänsten. </p>
+            </div>
+
+            <div class="about">
+                <h2>Slutsatser</h2>
+                <p>Jag tyckte att det var relativt enkelt att sätta upp databasen och servern som hanterar mitt API, då
+                    vi nyligen skrivit liknande kod i tidigare moment. Däremot upplevde jag det desto svårare att skriva
+                    JavaScript-kod med fetch API för att skapa och radera poster i mitt API, då detta är något vi aldrig
+                    tidigare gjort. Det kommer troligtvis att ta ett tag innan jag fullt ut förstår logiken bakom koden,
+                    men det har varit oerhört lärorikt att få testa på att skapa sitt eget API och utföra
+                    CRUD-operationer till det. Nu behöver jag bara öva lite till!
+                </p>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="custom-shape-divider-bottom">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path
+                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                class="shape-fill"></path>
+        </svg>
+    </div>
+
+    <footer>
+        <p>© Emma Lorensson</p>
+        <nav>
+            <a href="index.html">CV</a>
+            <a href="about.html">Om uppgiften</a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
